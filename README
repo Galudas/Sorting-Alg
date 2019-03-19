@@ -1,0 +1,39 @@
+Tema AA Rata Andrei 323CD
+
+In acest input am ales sa prezint cum arata fisierele de input pentru care imi voi testa algoritmi 
+
+	input1.txt va arata la fel pentru toti algoritmi(Va trata un sir de numere random pentru a evidentia care este cel mai eficient algoritm)
+	Fiecare algoritm va avea urmatoarele fisiere de input pentru a testat cel mai defavorabil si cel mai favorabil caz 
+	CountingSort:
+		test2.in - va testa cel mai defavorabil caz al alg(dimensiune mica a datelor);
+		test3.in - va testa cel mai defavorabil caz al alg(dimensiune mare a datelor);
+		test4.in - va testa cel mai favorabil caz al alg(dimensiune mica a datelor);
+		test5.in - va testa cel mai favorabil caz al alg(dimensiune mare a datelor);
+		test6.in - test random
+		test7.in - test random
+		test8.in - va testa un fisier ce va contine doar "1" si "2"
+		test9.in - va testa un fisier cu un singur element 
+		test8.in - va testa un fisier gol 
+	IntroSort:
+		test2.in - va testa cel mai defavorabil caz al alg(de fapt va fi format de worstCaseQuickSort, worstCaseHeapSort, worstCaseInsertionSort)
+		test3.in - va testa cel mai favorabil caz pe un set de date foarte mare;
+		test4.in - va testa cel mai favoravil caz pe un set de date foarte mic;
+		test5.in - va testa un fisier gol("Skip the file")
+		test6.in - va testa un fisier ce va contine doar "1" si "2"
+		test7.in - va testa 8000 de elemente 
+		test8.in - va testa 1 element
+		test9.in - test random
+		test10.in - test random
+	ShellSort:
+		test2.in - va testa cel mai ineficient caz
+		test3.in - va testa cel mai eficient caz
+		test4.in - test random 
+		test5.in - test random
+		test6.in - va testa un fisier ce va contine "1" si "2"
+		test7.in - va testa un set de date mic
+		test8.in - va testa un fisier gol
+		test9.in - va testa un set de date mic
+		test10.in - va testa un set de date mic
+NOTA:
+	1.Algoritmi pot primi numere doar din intervalul [−32,767, +32,767] deoarece am lucrat cu intregi.
+	2.In fiecare algoritm este tratat si cazul in care fisierul are 0 elemente.
